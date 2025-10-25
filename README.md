@@ -1,16 +1,30 @@
 ## Hi, I'm Jack
 
-I'm a software developer based in Portland, Oregon, focused on **low-level programming** and building systems from scratch. I'm interested in everything from graphics rendering to embedded systems - anything that gets close to the hardware.
+I build high-performance systems software in C/C++ - from **3D renderers that run on ARM microcontrollers** to **multithreaded HTTPS servers built from POSIX sockets**. I love working close to the hardware and understanding how things work at the lowest level.
 
-### What I'm working on
+**Currently seeking entry-level roles** in systems programming, embedded software development, or game engine engineering.
 
-**[shader-works](https://github.com/jackwthake/shader-works)** - High-performance 3D graphics pipeline written in C11, cross-platform and built for efficiency  
-**[secure-serve](https://github.com/jackwthake/secure-serve)** - Multithreaded web server in C++17 with HTTPS support  
-**[Tiny-Serial](https://github.com/jackwthake/tiny-Serial)** - Minimal terminal based serial monitor for Arduino and embedded development
+---
 
-I studied Computer Science at Portland State University. Check out my [coursework repository](https://github.com/jackwthake/psu-computer-science) to see the projects I completed there.
+### Featured Projects
 
-### Tech I work with
-C • C++ • Systems Programming • Embedded Systems • 3D Graphics
+**[shader-works](https://github.com/jackwthake/shader-works)** - Software 3D renderer with zero dependencies
+Complete CPU-based graphics pipeline in pure C. Renders 3000+ triangles at 40 FPS without a GPU. Successfully ported to ARM Cortex-M4 microcontroller (200MHz, 192KB RAM) with fully functional voxel world demo.
 
-📫 Reach me at: [jackwtdev@gmail.com]
+**[secure-serve](https://github.com/jackwthake/secure-serve)** - Production-ready HTTPS web server in modern C++
+Built entirely from raw POSIX sockets with OpenSSL encryption, dynamic thread pooling, and smart pointer memory management. Features whitelist-based routing and exception-safe resource handling.
+
+**[Tiny-Serial](https://github.com/jackwthake/Tiny-Serial)** - Lightweight serial monitor for embedded debugging
+Minimal alternative to screen/minicom written in 140 lines of strict ANSI C89. Non-blocking bidirectional communication with graceful signal handling.
+
+---
+
+### About Me
+
+📍 Portland, Oregon
+
+🎓 Studied Computer Science (major) and Mathematics (minor) at Portland State University
+
+💻 **Tech:** C/C++17 • OpenSSL • POSIX • CMake • Pthreads • TCP/IP • ARM Cortex • SDL • Git
+
+📫 **Contact:** jackwtdev@gmail.com

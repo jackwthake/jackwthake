@@ -6,7 +6,7 @@ Systems Engineer & Polyglot Programmer. Passionate about building high-performan
 
 ## Core Systems Portfolio
 
-### [C02](https://github.com/jackwthake/C02) (Rust)
+### [C02](https://github.com/jackwthake/C02) (C, Rust)
 **An optimizing compiler targeting the MOS 6502 8-bit architecture.**
 - Implements a custom virtual register machine mapping variables to Zero Page memory locations for ultra-low latency execution.
 - Features a full custom semantic analyzer, scoping engine (`SymbolTable`), and an explicit down-growing software stack pointer in main RAM.

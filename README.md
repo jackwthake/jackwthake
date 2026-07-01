@@ -7,7 +7,7 @@ Systems Engineer & Polyglot Programmer. Passionate about building high-performan
 ## Core Systems Portfolio
 
 ### [C02](https://github.com/jackwthake/C02) (C, Rust)
-**An optimizing compiler targeting the MOS 6502 8-bit architecture.**
+**A C-like compiler and toolchain targeting the 65C02, built for the Ben Eater breadboard kit computer**
 - Implements a custom virtual register machine mapping variables to Zero Page memory locations for ultra-low latency execution.
 - Features a full custom semantic analyzer, scoping engine (`SymbolTable`), and an explicit down-growing software stack pointer in main RAM.
 - *Engineered entirely left-handed post-op during dominant-wrist surgery recovery.*

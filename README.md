@@ -9,8 +9,8 @@ Systems Engineer & Polyglot Programmer. Passionate about building high-performan
 ### [C02](https://github.com/jackwthake/C02) (C, Rust)
 **A C-like compiler and toolchain targeting the 65C02, built for the Ben Eater breadboard kit computer**
 - Implements a custom virtual register machine mapping variables to Zero Page memory locations for ultra-low latency execution.
-- Features a full custom semantic analyzer, scoping engine (`SymbolTable`), and an explicit down-growing software stack pointer in main RAM.
-- *Engineered entirely left-handed post-op during dominant-wrist surgery recovery.*
+- Features a full custom semantic analyzer, scoping engine (`analyzer_t`), and an explicit down-growing software stack pointer in main RAM.
+- Most of it was built one-handed, left hand only, during recovery from wrist surgery on the other.
 
 ### [shader-works](https://github.com/jackwthake/shader-works) (C)
 **A zero-dependency software 3D rendering engine for bare-metal embedded hardware.**

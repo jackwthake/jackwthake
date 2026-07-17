@@ -1,15 +1,15 @@
 # Hi, I'm Jack
 
-Systems Engineer & Polyglot Programmer. Passionate about building high-performance infrastructure from scratch: ranging from raw C embedded graphics engines and C++ multithreaded servers to Rust compilers and autonomous AI simulations. I don't use frameworks; I write them.
-
----
+## Systems Engineer & Low-Level Software Developer.
+I build high-performance software from first principles, spanning compilers, embedded graphics, networking infrastructure, and simulations. I enjoy understanding the layers beneath modern abstractions and designing systems that are efficient, reliable, and maintainable.
 
 ## Core Systems Portfolio
 
 ### [C02](https://github.com/jackwthake/C02) (Haskell, OCaml, C, Rust, Python)
-**A C-like compiler and toolchain targeting the 65C02, built for the Ben Eater breadboard kit computer**
-- Implements a custom virtual register machine mapping variables to Zero Page memory locations for ultra-low latency execution.
-- Features a full custom semantic analyzer, scoping engine (`analyzer_t`), and an explicit down-growing software stack pointer in main RAM.
+**A modular compiler toolchain for a custom C-like systems language targeting the 65C02 processor and Ben Eater breadboard computer.**
+- Implements a complete compilation pipeline including a Haskell frontend (lexing, parsing, semantic analysis), CFG-based three-address-code IR, C backend/code generation, and OCaml linker.
+- Features separate compilation with custom object files, symbol resolution, relocation handling, and ROM image generation for bare-metal execution.
+- Designed around a custom ABI, memory model, and calling convention with explicit zero-page allocation and software stack management for constrained 8-bit hardware.
 
 ### [shader-works](https://github.com/jackwthake/shader-works) (C)
 **A zero-dependency software 3D rendering engine for bare-metal embedded hardware.**

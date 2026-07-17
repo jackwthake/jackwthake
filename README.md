@@ -6,7 +6,7 @@ Systems Engineer & Polyglot Programmer. Passionate about building high-performan
 
 ## Core Systems Portfolio
 
-### [C02](https://github.com/jackwthake/C02) (Haskell, C, Rust, Python)
+### [C02](https://github.com/jackwthake/C02) (Haskell, OCaml, C, Rust, Python)
 **A C-like compiler and toolchain targeting the 65C02, built for the Ben Eater breadboard kit computer**
 - Implements a custom virtual register machine mapping variables to Zero Page memory locations for ultra-low latency execution.
 - Features a full custom semantic analyzer, scoping engine (`analyzer_t`), and an explicit down-growing software stack pointer in main RAM.

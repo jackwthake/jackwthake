@@ -1,6 +1,6 @@
 # Hi, I'm Jack
 
-Systems Engineer & Polyglot Programmer. Passionate about building high-performance infrastructure from scratch—ranging from raw C embedded graphics engines and C++ multithreaded servers to Rust compilers and autonomous AI simulations. I don't use frameworks; I write them.
+Systems Engineer & Polyglot Programmer. Passionate about building high-performance infrastructure from scratch: ranging from raw C embedded graphics engines and C++ multithreaded servers to Rust compilers and autonomous AI simulations. I don't use frameworks; I write them.
 
 ---
 
